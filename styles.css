@@ -165,3 +165,42 @@ footer {
         margin-top: 10px;
     }
 }
+
+/* Logo pe telefoane */
+@media (max-width: 600px) {
+    .brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand img {
+        height: 70px !important;
+        width: auto !important;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .brand-text-title,
+    .brand-text-sub {
+        text-align: center;
+    }
+}
+
+/* Media page fix (centrare + spații) */
+@media (max-width: 600px) {
+    section, .container {
+        padding: 10px !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+
+    h1, h2, h3, p, nav {
+        text-align: center !important;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 16px;
+    }
+}
